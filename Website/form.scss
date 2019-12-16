@@ -1,0 +1,68 @@
+@import "./common";
+@import "@material/textfield/mdc-text-field";
+@import "@material/button/mdc-button";
+@import "@material/button/mdc-button";
+
+.header {
+  text-align: center;
+}
+
+.username,
+.date,
+.mail {
+  display: block;
+  width: 400px;
+  margin: 20px auto;
+}
+iframe{
+  display: none;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 400px;
+  margin: auto;
+}
+
+.button-container button {
+  margin: 3px;
+}
+
+.usernameSearch,
+.dateSearch,
+.mailSearch {
+  display: inline-table;
+  width: 400px;
+  margin: 20px auto;
+  margin-left: 20px;
+}
+
+.comment {
+  display: block;
+  resize: none; 
+  overflow: hidden;
+  width: max-content;
+  height: max-content;
+  margin: 20px auto;
+  margin-top: 40px;
+}
+#comment-Label{
+  width: 400px;
+}
+
+dt{
+  display: block;
+  text-align: center;
+  width: 400px;
+  margin: 5px auto;
+  color: purple;
+  -webkit-text-size-adjust: auto;
+}
+
+dd{
+  display: block;
+  text-align: justify;
+  width: 300px;
+  margin: 5px auto;
+  margin-bottom: 40px;
+}
